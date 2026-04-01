@@ -1,4 +1,7 @@
+import random
+import time
 import pygame
+pygame.init()
 
 class Button(pygame.sprite.Sprite):
     def __init__(self, color_on, color_off, sound, x, y):

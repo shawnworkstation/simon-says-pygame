@@ -13,13 +13,13 @@ SCREEN = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 pygame.display.set_caption("Simon Says")
 
 GREEN_ON   = (0,   255, 0)
-GREEN_OFF  = (0,   180, 0)
+GREEN_OFF  = (0,   227, 0)
 RED_ON     = (255, 0,   0)
-RED_OFF    = (180, 0,   0)
+RED_OFF    = (227, 0,   0)
 BLUE_ON    = (0,   0,   255)
-BLUE_OFF   = (0,   0,   180)
+BLUE_OFF   = (0,   0,   227)
 YELLOW_ON  = (255, 255, 0)
-YELLOW_OFF = (180, 180, 0)
+YELLOW_OFF = (227, 227, 0)
 
 # Pass in respective sounds for each color
 GREEN_SOUND  = pygame.mixer.Sound("bell1.mp3")
